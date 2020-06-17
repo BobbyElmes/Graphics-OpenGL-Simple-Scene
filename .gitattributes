@@ -1,3 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-cwk2/MakeFile linguist-vendored
+*.Makefile linguist-detectable=false
+ *.cpp linguist-detectable=true
+ *.ppm linguist-detectable=false
+ *.xml linguist-detectable=false
